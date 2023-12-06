@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\ChatTra\chattrac\build\windows\x64\CMakeFiles\0ba8a6be1d6a7da7c1063b535de23d79\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FF6EA76B-28C5-3957-BAA8-924643D8AF70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
