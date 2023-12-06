@@ -16,7 +16,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
 
   void _registerUser() async {
     final response = await http.post(
-      Uri.parse('http://192.168.0.12:3000/register'),
+      Uri.parse('https://proyectosw.onrender.com/register'),
       headers: <String, String>{
         'Content-Type': 'application/json; charset=UTF-8',
       },

@@ -112,7 +112,7 @@ class _IndividualPageState extends State<IndividualPage> {
   }
 
   void connect() {
-    socket = IO.io('http://192.168.0.12:3000', <String, dynamic>{
+    socket = IO.io('https://proyectosw.onrender.com/', <String, dynamic>{
       "transports": ["websocket"],
       "autoConnect": true,
     });

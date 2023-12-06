@@ -73,7 +73,7 @@ class _SelectContactState extends State<SelectContact> {
 
     if (userPhone != null) {
       final response = await http.post(
-        Uri.parse('http://192.168.0.12:3000/add_contact'),
+        Uri.parse('https://proyectosw.onrender.com/add_contact'),
         headers: <String, String>{
           'Content-Type': 'application/json; charset=UTF-8',
         },
@@ -107,7 +107,7 @@ class _SelectContactState extends State<SelectContact> {
 
   if (userPhone != null) {
     final response = await http.get(
-      Uri.parse('http://192.168.0.12:3000/get_contacts/$userPhone'), // Utiliza la nueva ruta para obtener los contactos del usuario
+      Uri.parse('https://proyectosw.onrender.com/get_contacts/$userPhone'), // Utiliza la nueva ruta para obtener los contactos del usuario
     );
 
     if (response.statusCode == 200) {
